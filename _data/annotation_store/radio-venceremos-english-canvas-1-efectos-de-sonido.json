@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://lgsump.github.io/comparison-test/annotations/radio-venceremos-english-canvas-1-efectos-de-sonido.json",
+  "type": "AnnotationPage",
+  "label": "Efectos de sonido",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "radio-venceremos-english-canvas-1-efectos-de-sonido-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": [
+        {
+          "type": "TextualBody",
+          "value": "(scraping sounds and woman speaking in the background)",
+          "format": "text/plain",
+          "purpose": "commenting"
+        },
+        {
+          "type": "TextualBody",
+          "value": "Sounds",
+          "format": "text/plain",
+          "purpose": "tagging"
+        }
+      ],
+      "target": {
+        "source": "https://lgsump.github.io/comparison-test/radio-venceremos-english/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "2131.0,2142.0"
+        }
+      }
+    }
+  ]
+}
