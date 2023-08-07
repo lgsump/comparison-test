@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://lgsump.github.io/comparison-test/annotations/english-05-26-am-canvas-1-radio-venceremos--br-fmln.json",
+  "type": "AnnotationPage",
+  "label": "Radio Venceremos <br>FMLN",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "english-05-26-am-canvas-1-radio-venceremos--br-fmln-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "This is Radio Venceremos, the official voice of the Farabundo Marti for National Liberation Front, transmitting its signal of liberty from El Salvador, Central America, a territory in combat against oppression and imperialism.",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://lgsump.github.io/comparison-test/english-05-26-am/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "232.0,251.0"
+        }
+      }
+    },
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "english-05-26-am-canvas-1-radio-venceremos--br-fmln-annotation-1.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Radio Venceremos, is the official voice of the Farabundo Marti National Liberation Front, and the voice of the Salvadoran people in arms. A heroic greeting to you, Salvadoran people. Radio Venceremos greets you. The present is a struggle, the future is ours!",
+        "format": "text/plain",
+        "purpose": "commenting"
+      },
+      "target": {
+        "source": "https://lgsump.github.io/comparison-test/english-05-26-am/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "484.0,507.0"
+        }
+      }
+    }
+  ]
+}
